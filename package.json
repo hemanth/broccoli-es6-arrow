@@ -1,0 +1,37 @@
+{
+  "name": "broccoli-md",
+  "version": "0.0.1",
+  "description": "Markdown to HTML",
+  "license": "MIT",
+  "repository": "hemanth/broccoli-md",
+  "author": {
+    "name": "Hemanth HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "broccoli build temp && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "broccoli-plugin",
+    "md",
+    "html",
+    "markdown",
+    "compile"
+  ],
+  "dependencies": {
+    "broccoli-filter": "0.0.1",
+    "markdown": "~0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "broccoli": "~0.1.1",
+    "rimraf": "~2.2.6"
+  }
+}
