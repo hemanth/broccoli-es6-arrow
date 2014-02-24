@@ -9,7 +9,7 @@ afterEach(function () {
 
 it('should compile md', function () {
 	assert.equal(
-		fs.readFileSync('temp/fixture.html', 'utf8'),
-		fs.readFileSync('fixture/expected.html', 'utf8').trim()
+		fs.readFileSync('temp/fixture.js', 'utf8'),
+		fs.readFileSync('fixture/expected.js', 'utf8').trim()
 	);
 });

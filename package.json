@@ -1,9 +1,9 @@
 {
-  "name": "broccoli-md",
+  "name": "broccoli-es6-arrow",
   "version": "0.0.1",
-  "description": "Markdown to HTML",
+  "description": "ES6 arrow functions compiled to ES5.",
   "license": "MIT",
-  "repository": "hemanth/broccoli-md",
+  "repository": "hemanth/broccoli-es6-arrow",
   "author": {
     "name": "Hemanth HM",
     "email": "hemanth.hm@gmail.com",
@@ -20,14 +20,14 @@
   ],
   "keywords": [
     "broccoli-plugin",
-    "md",
+    "ES6",
     "html",
-    "markdown",
+    "ES5",
     "compile"
   ],
   "dependencies": {
     "broccoli-filter": "0.0.1",
-    "markdown": "~0.5.0"
+    "es6-arrow-function": "^0.1.1"
   },
   "devDependencies": {
     "mocha": "*",

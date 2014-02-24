@@ -1,22 +1,29 @@
-# [broccoli](https://github.com/joliss/broccoli)-md [![Build Status](https://travis-ci.org/hemanth/broccoli-md.png?branch=master)](https://travis-ci.org/hemanth/broccoli-md)
+# [broccoli](https://github.com/joliss/broccoli)-fat-arrow [![Build Status](https://travis-ci.org/hemanth/broccoli-fat-arrow.png?branch=master)](https://travis-ci.org/hemanth/broccoli-fat-arrow)
 
-> Convert markdown to html.
+> Compiles ES6 arrow functions to ES5 compliant code
 
-*Issues with the output should be reported on the md [issue tracker](https://github.com/evilstreak/markdown-js/issues).*
+```js
+[1, 2, 3].map(n => n * 2);
+```
 
+compiles to this:
+
+```js
+[1, 2, 3].map(function(n) { return n * 2; });
+```
 
 ## Install
 
 ```
-npm install --save broccoli-md
+npm install --save broccoli-es6-arrow
 ```
 
 
 ## Example
 
 ```js
-var md = require('broccoli-md');
-tree = md(tree, options);
+var md = require('broccoli-es6-arrow');
+tree = md(tree);
 ```
 
 

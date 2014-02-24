@@ -1,23 +1,23 @@
 'use strict';
 var Filter = require('broccoli-filter');
-var markdown = require( "markdown" ).markdown;
+var fat = require('es6-arrow-function').compile;
 
-function mdFilter(inputTree, options) {
-	if (!(this instanceof mdFilter)) {
-		return new mdFilter(inputTree, options);
+function arrowFilter(inputTree, options) {
+	if (!(this instanceof arrowFilter)) {
+		return new arrowFilter(inputTree, options);
 	}
 
 	this.inputTree = inputTree;
 }
 
-mdFilter.prototype = Object.create(Filter.prototype);
-mdFilter.prototype.constructor = mdFilter;
+arrowFilter.prototype = Object.create(Filter.prototype);
+arrowFilter.prototype.constructor = arrowFilter;
 
-mdFilter.prototype.extensions = ['md'];
-mdFilter.prototype.targetExtension = 'html';
+arrowFilter.prototype.extensions = ['js'];
+arrowFilter.prototype.targetExtension = 'js';
 
-mdFilter.prototype.processString = function (str) {
-	return markdown.toHTML(str);
+arrowFilter.prototype.processString = function (str) {
+	return fat(str);
 };
 
-module.exports = mdFilter;
+module.exports = arrowFilter;
