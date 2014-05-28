@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-fat-arrow [![Build Status](https://travis-ci.org/hemanth/broccoli-fat-arrow.png?branch=master)](https://travis-ci.org/hemanth/broccoli-fat-arrow)
+# [broccoli](https://github.com/joliss/broccoli)-fat-arrow [![Build Status](https://travis-ci.org/hemanth/broccoli-es6-arrow.svg?branch=master)](https://travis-ci.org/hemanth/broccoli-fat-arrow)
 
 > Compiles ES6 arrow functions to ES5 compliant code
 
