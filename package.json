@@ -1,6 +1,6 @@
 {
   "name": "broccoli-es6-arrow",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ES6 arrow functions compiled to ES5.",
   "license": "MIT",
   "repository": "hemanth/broccoli-es6-arrow",
