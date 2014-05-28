@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "broccoli": "~0.1.1",
-    "rimraf": "~2.2.6"
+    "broccoli": "^0.12.0",
+    "rimraf": "^2.2.6"
   }
 }
