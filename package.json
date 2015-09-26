@@ -26,12 +26,12 @@
     "compile"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.10",
-    "es6-arrow-function": "^0.6.2"
+    "broccoli-filter": "0.1.14",
+    "es6-arrow-function": "0.6.6"
   },
   "devDependencies": {
-    "mocha": "*",
-    "broccoli": "^0.13.3",
-    "rimraf": "^2.2.8"
+    "mocha": "2.3.3",
+    "broccoli": "0.13.6",
+    "rimraf": "2.4.3"
   }
 }
