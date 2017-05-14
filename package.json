@@ -30,7 +30,7 @@
     "es6-arrow-function": "^0.6.2"
   },
   "devDependencies": {
-    "mocha": "*",
+    "mocha": "3.4.0",
     "broccoli": "^0.13.3",
     "rimraf": "^2.2.8"
   }
